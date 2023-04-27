@@ -1,0 +1,96 @@
+body {
+    background-color: #918c5b;
+    padding: 45px 0;
+    color: white;
+  }
+  
+  
+  
+  .avatar {
+    border-radius: 100px;
+  }
+  .button a:hover{
+    color:black;
+    background-color: aliceblue;
+  }
+  h3 {
+    font-family: "Lobster", cursive;
+    margin: 10px 0 8px 0;
+  }
+  
+  p {
+    font-family: system-ui;
+    width: 450px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    p {
+      width: 100%;
+    }
+  }
+  
+  .button {
+    margin-bottom: 20px;
+    background-color: white;
+    border: 0;
+    width: 300px;
+    padding: 15px 0 15px 0;
+    border-radius: 100px;
+    font-family: "Roboto Condensed", cursive;
+    font-size: 15px;
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+    -webkit-box-shadow: 0px 11px 22px -9px #000000;
+    box-shadow: 0px 11px 22px -9px #000000;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    color: white;
+    background-color: black;
+  }
+  body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  h1{
+    width:50%;
+    height:none;
+  }
+  
+ 
+
+.hi{
+    margin-right: 70%;
+    margin-top: -500px;
+}
+.lh{
+  text-align: left;
+  color: black;
+  font-size: 16px;}
+
+.footer{
+  background-color: darkgoldenrod;
+  border: #ccc 1px solid;
+  width: 98%;
+  margin: 0px auto; 
+}
+.lspt{
+  color: orangered;
+  font-size: 40px;
+  font-weight: bold;
+}
